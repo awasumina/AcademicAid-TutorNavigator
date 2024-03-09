@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: #cee2f6;
+}
+
+.blocks{
+    min-height: 100vh;
+}
+
+.box{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.left-side{
+    padding: 30px 60px;
+    width: 40%;
+    /* border: 2px solid black; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(to bottom,#ffffff,#80a9e2);
+    text-align: center;
+    font-size: 15px;
+    
+}
+.t-name{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+}
+.left-side img{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.right-side{
+    width: 65%;
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 30px 40px;
+}
+.status{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: green;
+}
+.chat-box,.datas{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
+
+.chat{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    background-color:rgb(3, 3, 60);
+    color: white;
+}
+.chat:hover{
+   background-color: #fff;
+   color: green;
+}
+.datas li{
+    list-style:none;
+    font-size: 20px;
+    display: flex;
+    padding: 5px;
+
+}
+
+/* .button{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    background-color:rgb(122, 122, 184);
+    color: white;
+} */
+
+.social-media{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 240px;
+}
+.social-media li{
+    list-style: none;
+}
+.social-media  li a{
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.social-media  li a:hover{
+    background-color: #666;
+}

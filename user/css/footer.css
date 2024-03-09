@@ -1,0 +1,109 @@
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}*/
+footer{
+     width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    background-color:#1a4564;
+    /* border: 2px solid rgb(205, 14, 14); */
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.about-us{
+    width: 30%;
+}
+.about-us h3{
+ margin-bottom: 20px;
+ position: relative;
+ color:white;
+ font-size: 20px;
+}
+.about-us p{
+    color:#fff;
+}
+.fa-brands{
+    color: rgb(15, 4, 6);
+}
+.social-media{
+    display: flex;
+    margin-top: 10px;
+}
+.social-media li{
+    list-style: none;
+}
+.social-media  li a{
+    width: 30px;
+    height: 30px;
+    background-color:white;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.social-media  li a:hover{
+    background-color: #666;
+}
+
+
+.subscribe{
+   margin-left: 15px;
+}
+
+.links h2{
+    margin-bottom: 15px;
+    color: white;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+.subscribe h2{
+    margin-bottom: 10px;
+    color: #fff;
+}
+form input{
+    height: 40px;
+    width: 250px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+.app button{
+    
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+span{
+    color: blue;
+    font-size: 20px;
+}
